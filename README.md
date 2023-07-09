@@ -6,7 +6,7 @@
 
 # JavaScript
 ## Curso Básico de JavaScript
-    <iframe src="./media/JavaScript/diploma-basico-javascript.pdf&embedded=true" width="100%" height="600px" frameborder="0" scrolling="auto"></iframe>
+<iframe src="./media/JavaScript/diploma-basico-javascript.pdf&embedded=true" width="100%" height="600px" frameborder="0" scrolling="auto"></iframe>
 
 ## Curso de ECMASCRIPT
 ## Curso Práctico de JavaScript
