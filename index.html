@@ -4,49 +4,135 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Platzi Certifications</title>
+
+    <link href="styles.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Platzi Certifications</h1><hr>
+    <nav class="nav">
+        <ul class="list">
 
-    <div id="tableOfContents">
-        <h2>Table of Contents</h2>
-        <ul>
-            <li><a href="#javaScript">JavaScript</a></li>
-            <ul>
-                <li><a href="#javaScriptBasico">Curso Básico de JavaScript</a></li>
-                <li><a href="#ecmascript">Curso de ECMASCRIPT</a></li>
-                <li><a href="#javaScriptPractico">Curso Práctico de JavaScript</a></li>
-            </ul>
+            <li class="list__item ">
+                <div class="list__button">
+                    <img src="assets/menu/menu.svg" class="list__img">
+                    <a href="#" class="nav__link">Inicio</a>
+                </div>
+            </li>
 
-            <li><a href="#php">PHP</a></li>
-            <ul>
-                <li><a href="#phpBasico">Curso Básico de PHP</a></li>
-            </ul>
+            <li class="list__item list__item--click">
+                <div class="list__button list__button--click">
+                    <img src="assets/menu/javascript.svg" class="list__img">
+                    <a href="#" class="nav__link">JavaScript</a>
+                    <img src="assets/menu/arrow.svg" class="list__arrow">
+                </div>
 
-            <li><a href="#qualityAssurance">Quality Assurance</a></li>
-            <ul>
-                <li><a href="#fundamentosPruebas">Curso de Fundamentos de Pruebas de Software</a></li>
-                <li><a href="#automatizacionPruebas">Curso de Introducción a la Automatización de Pruebas</a></li>
-                <li><a href="#pruebasPuppeteer">Curso de Introducción a la Autoamtizacion de Pruebas con Puppeteer</a></li>
-                <li><a href="#puppeteerAvanzado">Curso Avanzado de Automatización de Pruebas con Puppeteer</a></li>
-                <li><a href="#playwright">Curso de Automatización de Pruebas con Playwright</a></li>
-            </ul>
+                <ul class="list__show">
+                    <li class="list__inside">
+                        <a href="#javaScriptBasico" class="nav__link nav__link--inside">Curso Básico de JavaScript</a>
+                    </li>
 
-            <li><a href="#reactJs">ReactJs</a></li>
-            <ul>
-                <li><a href="#reactJsBasico">Curso de React.js</a></li>
-            </ul>
+                    <li class="list__inside">
+                        <a href="#ecmascript" class="nav__link nav__link--inside">Curso de ECMASCRIPT</a>
+                    </li>
 
-            <li><a href="#software">Software</a></li>
-            <ul>
-                <li><a href="#fundamentosSoftware">Curso de Fundamentos de Ingeniería de Software</a></li>
-                <li><a href="#gitGitHub">Curso Profesional de Git y GitHub</a></li>
-                <li><a href="#gitHubActions">Curso Básico de GitHub Actions</a></li>
-                <li><a href="#preWorkWindows">Curso de PreWork: Configuración de Entorno de Desarrollo en Windows</a></li>
-                <li><a href="#preWorkLinux">Curso de PreWork: Configuración de Entorno de Desarrollo en Linux</a></li>
-            </ul>
+                    <li class="list__inside">
+                        <a href="#javaScriptPractico" class="nav__link nav__link--inside">Curso Práctico de JavaScript</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list__item list__item--click">
+                <div class="list__button list__button--click">
+                    <img src="assets/menu/php.svg" class="list__img">
+                    <a href="#" class="nav__link">PHP</a>
+                    <img src="assets/menu/arrow.svg" class="list__arrow">
+                </div>
+
+                <ul class="list__show">
+                    <li class="list__inside">
+                        <a href="#phpBasico" class="nav__link nav__link--inside">Curso Básico de PHP</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list__item list__item--click">
+                <div class="list__button list__button--click">
+                    <img src="assets/menu/qa.svg" class="list__img">
+                    <a href="#" class="nav__link">Quality Assurance</a>
+                    <img src="assets/menu/arrow.svg" class="list__arrow">
+                </div>
+
+                <ul class="list__show">
+                    <li class="list__inside">
+                        <a href="#fundamentosPruebas" class="nav__link nav__link--inside">Curso de Fundamentos de Pruebas de Software</a>
+                    </li>
+
+                    <li class="list__inside">
+                        <a href="#automatizacionPruebas" class="nav__link nav__link--inside">Curso de Introducción a la Automatización de Pruebas</a>
+                    </li>
+
+                    <li class="list__inside">
+                        <a href="#pruebasPuppeteer" class="nav__link nav__link--inside">Curso de Introducción a la Automatización de Pruebas con Puppeteer</a>
+                    </li>
+
+                    <li class="list__inside">
+                        <a href="#puppeteerAvanzado" class="nav__link nav__link--inside">Curso Avanzado de Automatización de Pruebas con Puppeteer</a>
+                    </li>
+
+                    <li class="list__inside">
+                        <a href="#playwright" class="nav__link nav__link--inside">Curso de Automatización de Pruebas con Playwright</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list__item list__item--click">
+                <div class="list__button list__button--click">
+                    <img src="assets/menu/react.svg" class="list__img">
+                    <a href="#" class="nav__link">ReactJs</a>
+                    <img src="assets/menu/arrow.svg" class="list__arrow">
+                </div>
+
+                <ul class="list__show">
+                    <li class="list__inside">
+                        <a href="#reactJsBasico" class="nav__link nav__link--inside">Curso de React.js</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list__item list__item--click">
+                <div class="list__button list__button--click">
+                    <img src="assets/menu/software.svg" class="list__img">
+                    <a href="#" class="nav__link">Software</a>
+                    <img src="assets/menu/arrow.svg" class="list__arrow">
+                </div>
+
+                <ul class="list__show">
+                    <li class="list__inside">
+                        <a href="#fundamentosSoftware" class="nav__link nav__link--inside">Curso de Fundamentos de Ingeniería de Software</a>
+                    </li>
+
+                    <li class="list__inside">
+                        <a href="#gitGitHub" class="nav__link nav__link--inside">Curso Profesional de Git y GitHub</a>
+                    </li>
+
+                    <li class="list__inside">
+                        <a href="#gitHubActions" class="nav__link nav__link--inside">Curso Básico de GitHub Actions</a>
+                    </li>
+
+                    <li class="list__inside">
+                        <a href="#preWorkWindows" class="nav__link nav__link--inside">Curso de PreWork: Configuración de Entorno de Desarrollo en Windows</a>
+                    </li>
+                    
+                    <li class="list__inside">
+                        <a href="#preWorkLinux" class="nav__link nav__link--inside">Curso de PreWork: Configuración de Entorno de Desarrollo en Linux</a>
+                    </li>
+                </ul>
+            </li>
         </ul>
-    </div><hr>
+    </nav>
+
+    <h1>Platzi Certifications</h1><hr>
 
     <div id="javaScript">
         <h2>JavaScript</h2>
