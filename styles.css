@@ -1,25 +1,40 @@
 body{
-    padding: 15px;
+    height: 100%;
+    background-color: black;
 }
 
-.inactive {
-    display: none;
+.container{
+    display: flex;
 }
 
-.nav{
+/* Content */
+.content{
+    flex: 1;
+    background-color: #f1f1f1;
+    padding-left: 15px;
+    margin-left: 300px;
+}
+
+/* Menu */
+.left-nav{
     width: 300px;
+    background-color: #f1f1f1;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
 }
 
 .nav__link{
     color: #303440;
     display: block;
-    padding: 15px 0;
+    padding: 10px 0;
     text-decoration: none;
 }
 
 .nav__link--inside{
     border-radius: 6px;
-    padding-left: 20px;
+    padding-left: 15px;
     text-align: left;
 }
 
@@ -34,7 +49,8 @@ body{
     justify-content: center;
     flex-direction: column;
     border-radius: 0 16px 16px 0;
-    background: #fff;
+    padding: 0;
+    margin: 0;
 }
 
 .list__item{
